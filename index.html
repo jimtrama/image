@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <div>
+            <input type="file" id="imgfile" />
+            <input type="text" id="text">
+            <button onclick="encode()" >Encode</button>
+            <button onclick="decode()" >Decode</button>
+            <button onclick="main();">Load</button>
+            <button onclick="save();">Save</button>
+        </div>
+        <canvas style="height: 100px;width: auto;" id="canvas"></canvas>
+        <canvas style="height: 100px;width: auto;" id="canvas_result"></canvas>
+        <span id="logs" ></span>
+    </body>
+</html>
